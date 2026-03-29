@@ -11,6 +11,15 @@ public class Maybe {
             "Ram:(noun)  temporary memory used while computer is running.",
             "Keyboard:(noun) an input device used to type data",
             "Mouse:(noun) a pointing device used to interact with the computer" 
+
+        // Ronald Comendador
+        // This is the 1D array that stores all IT terms and definitions
+            "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
+            "Icon:(nonverbal) a small image that represents a program, file, or function.",
+            "Diagram:(nonverbal) a visual representation of data or processes.",
+            "Flowchart:(nonverbal) shows steps of a process using symbols and arrows.",
+            "Chart:(nonverbal) presents data visually using bars, lines, or pie shapes.",
+
         };
         
         System.out.print("Enter Term: ");
