@@ -1,0 +1,33 @@
+# group1-proggraming
+import java.util.Scanner;
+
+public class Maybe {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String[] data = {
+           
+            "Cpu:(noun) central processing unit the brain of the computer.",
+            "Ram:(noun)  temporary memory used while computer is running.",
+            "Keyboard:(noun) an input device used to type data",
+            "Mouse:(noun) a pointing device used to interact with the computer" 
+        };
+        
+        System.out.print("Enter Term: ");
+        String choice = scanner.nextLine();
+        
+        Boolean decision = false;
+        for (int i = 0; i < data.length; i++) {
+            String[] Data = data[i].split(":");
+
+            if (Data[0].equals(choice)) {
+                System.out.println("Definition: " + Data[1]);
+                decision = true;
+            }    
+      } if (!decision) {
+      System.out.println("The term is not found in the dictionary");
+            }
+
+        scanner.close();
+        }  
+    }
