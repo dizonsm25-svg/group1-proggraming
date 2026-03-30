@@ -49,7 +49,6 @@ public class Maybe {
             ‎"Throttling:(noun) limiting the rate of data or requests.",
             ‎"Sharding:(noun) splitting a database into smaller, faster pieces.",
             ‎"Sandboxing:(noun) isolating programs to run safely.",
-
             ‎"Rollback:(noun) reverting a system to a previous state.",
             ‎"Load Balancer:(noun) system distributing network traffic across servers.",
             ‎"Deadlock:(noun) situation where processes wait indefinitely for resources.",
