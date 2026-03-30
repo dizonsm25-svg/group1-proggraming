@@ -47,7 +47,7 @@ Scanner scanner = new Scanner(System.in);
             ‎"Upload:(verb) sending data from a local device to the internet.",
             ‎"USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
 
-        // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program.
+        // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program and debugging.
 
             "Encapsulation:(noun) bundling data with methods that  operate on it.",
             "Idempotency:(noun) property where repeated operations yield the same result.",
