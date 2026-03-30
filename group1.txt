@@ -182,7 +182,8 @@ public static void main(String[] args) {
                  String option = scanner.nextLine();
                 
                 
- // Jazz Carlo Cabano Contribution               if("Yes".equalsIgnoreCase(option)){
+ // Jazz Carlo Cabano Contribution               
+                if("Yes".equalsIgnoreCase(option)){
                     Repeat();
                
                 } else if("No".equalsIgnoreCase(option)){
