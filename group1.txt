@@ -3,7 +3,12 @@ import java.util.Scanner;
 
 public class Maybe {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
+//Jonathan M. Cartalla Jr. : Contributed adding a method called repeat
+Repeat();
+} static void Repeat(){
+       
+Scanner scanner = new Scanner(System.in);
 
         // Ronald Comendador
         // This is the 1D array that stores all IT terms and definitions
@@ -84,9 +89,9 @@ public class Maybe {
           "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.",
 
         };
-
-        System.out.print("Enter Term: ");                        //Jonathan
-        String choice = scanner.nextLine();                      //The user can enter
+        //Jonathan M. Cartalla Jr. Contribution.
+        System.out.print("Enter Term: ");                        
+        String choice = scanner.nextLine();                      //The user can enter the term he wants to search
         
         Boolean decision = false;
         for (int i = 0; i < data.length; i++) {
@@ -98,10 +103,35 @@ public class Maybe {
             if (SplitData[0].trim().equalsIgnoreCase(choice.trim())) {
                 System.out.println("Definition: " + SplitData[1]);
                 decision = true;
-            }    
+             
+                // Jonathan M. Cartalla Jr. Contribution.
+                System.out.println("Would You Like To Search Again?"); 
+                System.out.println("Yes.");
+                System.out.println("No.");
+                System.out.print("Enter Choice: ");
+                 String option = scanner.nextLine();
+                   
+                if("Yes".equalsIgnoreCase(option)){
+                    Repeat();
+               
+                } else if("No".equalsIgnoreCase(option)){
+                    System.out.println("Thank You for Ussing The IT Term Dictionary");
+                }else{
+                    System.out.println("Thank You for Ussing The IT Term Dictionary");
+                }
+
+        }    
       } if (!decision) {
       System.out.println("The term is not found in the dictionary");
-            }
+            if("Yes".equalsIgnoreCase(option)){
+                    Repeat();
+               
+                } else if("No".equalsIgnoreCase(option)){
+                    System.out.println("Thank You for Ussing The IT Term Dictionary");
+                }else{
+                    System.out.println("Thank You for Ussing The IT Term Dictionary");
+                }
+       }
 
         scanner.close();
         }  
