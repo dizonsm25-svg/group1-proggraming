@@ -53,7 +53,7 @@ public static void main(String[] args) {
              "USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
          
 
-        // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program and debugging.
+        // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program and debugging minor bugs.
 
              "Encapsulation:(noun) bundling data with methods that  operate on it.",
              "Idempotency:(noun) property where repeated operations yield the same result.",
