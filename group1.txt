@@ -74,6 +74,14 @@ public class Maybe {
           "Phishing:(noun) a cyber attack that tricks users into giving personal information.",
           "Open Source:(noun) software with source code that anyone can view and modify.",
           "Kernel:(noun) the core part of an operating system that manages resources.",
+
+        //Oliver G. Lerio: Contributed to adding terms in the IT Dictionary program.
+
+          "Internet:(noun) global network connecting millions of computers worldwide.",
+          "Website:(noun) collection of related web pages accessible through the internet.",
+          "Password:(noun) secret string of characters used to access a device or account.",
+          "Email:(noun) online tool for sending and receiving messages over the internet.",
+          "Search Engine:(noun) online tool that helps find information, websites, and content on the internet."
         };
 
         System.out.print("Enter Term: ");                        //Jonathan
