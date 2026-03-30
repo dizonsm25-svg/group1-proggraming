@@ -60,6 +60,14 @@ public class Maybe {
            "Firewall:(noun) system filtering network traffic.",
            "Server:(noun) machine providing services to clients.",
            "Compiler:(noun) tool translating code into executable form.",
+         
+        // Mark Timothy Abranilla: Contributed to adding terms in the IT Dictionary program.
+
+          "Virtualization:(noun) the creation of virtual versions of hardware or systems.",
+          "Latency:(noun) the delay before data begins to transfer.",
+          "Phishing:(noun) a cyber attack that tricks users into giving personal information.",
+          "Open Source:(noun) software with source code that anyone can view and modify.",
+          "Kernel:(noun) the core part of an operating system that manages resources.",
         };
 
         System.out.print("Enter Term: ");                        //Jonathan
