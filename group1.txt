@@ -33,7 +33,7 @@ public static void main(String[] args) {
             "Software:(noun) programs and operating systems used by a computer.,",
             "Network:(noun) a group of interconnected computers.",
             
-             // Rashlie Jay: Contributed to adding terms in the IT dictionary program.
+             // Rashlie Jay  Merced: Contributed to adding terms in the IT dictionary program.
 
             "Hardware:(noun) the physical components of a computer system.",
             "Network:(noun) a group of interconnected computers.",
@@ -112,14 +112,16 @@ public static void main(String[] args) {
           "Access Point:(noun) A device or component that acts as the wireless entry point in a network.",
           
           //Kristo Baroud: Contributed to adding terms in the IT Dictionary program.
-          "Chipset:(noun) controls communication between components.",
-          "Expansion Slots:(noun) slots for adding extra cards like graphics cards.",
           "Power Connectors:(noun) connect the motherboard to the power supply.",
           "BIOS/UEFI Chip:(noun) stores startup instructions.",
+          "Storage Device:(noun) stores data permanently.",
+          "Power Supply Unit:(noun) provides electrical power.",
+          "Cooling System:(noun) keeps the system from overheating.",
+          "Case:(noun) encloses and protects components.",
           
            // Sam Dizon: Contributed to adding terms in the IT Dictionary program.
 
-           "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
+           "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the Internet             Protocol for communication.",
            "HTML: (noun) HyperText Markup Language - the standard markup language used to create and structure web pages.",
            "Motherboard:(noun) the main board that connects all components.",
            "Ports:(noun) external connections for devices.",
