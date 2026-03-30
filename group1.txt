@@ -35,13 +35,21 @@ public class Maybe {
   
        // Ashton Paulinio: Contributed to adding terms in the IT Dictionary program.
 
-           ‎"Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
-           ‎"Binary:(noun) numbering system using only 0 and 1 understood by computers.",
-           ‎"Bluetooth:(noun) wireless technology used for short-range communication between devices.",
-           ‎"Data Center:(noun) facility used to store computer systems and networking equipment.",
-           ‎"Download:(verb) transferring data from the internet to a local device.",
-           ‎"Upload:(verb) sending data from a local device to the internet.",
-           ‎"USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
+            ‎"Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
+            ‎"Binary:(noun) numbering system using only 0 and 1 understood by computers.",
+            ‎"Bluetooth:(noun) wireless technology used for short-range communication between devices.",
+            ‎"Data Center:(noun) facility used to store computer systems and networking equipment.",
+            ‎"Download:(verb) transferring data from the internet to a local device.",
+            ‎"Upload:(verb) sending data from a local device to the internet.",
+            ‎"USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
+
+        // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program.
+
+            ‎"Encapsulation:(noun) bundling data with methods that operate on it.",
+            ‎"Idempotency:(noun) property where repeated operations yield the same result.",
+            ‎"Throttling:(noun) limiting the rate of data or requests.",
+            ‎"Sharding:(noun) splitting a database into smaller, faster pieces.",
+            ‎"Sandboxing:(noun) isolating programs to run safely.",
         };
 
         System.out.print("Enter Term: ");                        //Jonathan
