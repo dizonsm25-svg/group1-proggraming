@@ -99,6 +99,7 @@ public static void main(String[] args) {
              "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.",
 
           // John Michael Pasag: Contributed to adding terms in the IT Dictionary program.
+
              "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
              "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
              "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
@@ -106,11 +107,13 @@ public static void main(String[] args) {
              "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
           
           //Al Nhur Limpao: Contributed to adding terms in the IT Dictionary program.
+
              "Ethernet:(noun) A set of technologies and protocols connecting devices over a network. It is commonly used with the RJ45/8P8C port.",
              "Network Switch:(noun) a device which allows to connect multiple devices together.",
              "Access Point:(noun) A device or component that acts as the wireless entry point in a network.",
           
           //Kristo Baroud: Contributed to adding terms in the IT Dictionary program.
+
              "Power Connectors:(noun) connect the motherboard to the power supply.",
              "BIOS/UEFI Chip:(noun) stores startup instructions.",
              "Storage Device:(noun) stores data permanently.",
