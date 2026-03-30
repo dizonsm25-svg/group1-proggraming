@@ -139,7 +139,7 @@ public static void main(String[] args) {
     };
        
     
-    
+    //Jonathan M. Cartalla Contribution 
         System.out.print("Enter Term: ");
         String choice = scanner.nextLine();
         
@@ -172,6 +172,7 @@ public static void main(String[] args) {
                 }
                 
             }    
+//James Ellicot Contribution 
       } if (!decision) {
       System.out.println("The term is not found in the dictionary");
                 System.out.println("Would You Like To Search Again?"); 
@@ -181,7 +182,7 @@ public static void main(String[] args) {
                  String option = scanner.nextLine();
                 
                 
-                if("Yes".equalsIgnoreCase(option)){
+ // Jazz Carlo Cabano Contribution               if("Yes".equalsIgnoreCase(option)){
                     Repeat();
                
                 } else if("No".equalsIgnoreCase(option)){
