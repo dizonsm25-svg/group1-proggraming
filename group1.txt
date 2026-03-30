@@ -28,7 +28,6 @@ public class Maybe {
         // Rashlie Jay: Contributed to adding terms in the IT dictionary program.
 
             "Hardware:(noun) the physical components of a computer system.",
-            "Network:(noun) a group of interconnected computers.",
             "Program:(noun) a set of instructions that a computer follows to perform a task.",
             "Database:(noun) an organized collection of structured information or data.",
             "Motherboard:(noun) the main board that connects all components.",
