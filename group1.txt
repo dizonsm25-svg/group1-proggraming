@@ -25,7 +25,7 @@ public class Maybe {
             "Software:(noun) programs and operating systems used by a computer.",
             "Network:(noun) a group of interconnected computers.",
 
-        // Rashlie Jay: Contributed to adding terms in the IT dictionary program.
+        // Rashlie Jay Merced: Contributed to adding terms in the IT dictionary program.
 
             "Hardware:(noun) the physical components of a computer system.",
             "Program:(noun) a set of instructions that a computer follows to perform a task.",
