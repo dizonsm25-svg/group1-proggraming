@@ -5,10 +5,10 @@ public class Maybe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String[] data = {
-
         // Ronald Comendador
         // This is the 1D array that stores all IT terms and definitions
+        String[] data = {
+
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
             "Icon:(nonverbal) a small image that represents a program, file, or function.",
             "Diagram:(nonverbal) a visual representation of data or processes.",
