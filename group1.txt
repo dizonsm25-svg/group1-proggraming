@@ -95,6 +95,14 @@ Scanner scanner = new Scanner(System.in);
             "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
             "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
 
+        // Adolf Rainer C. Mangmang: Contributed to adding terms in the IT Dictionary program.
+
+            "Hack:(verb) unauthorized access to a computer system or clever workaround/technique in programming.",
+            "Bug:(noun) an error, flaw, or fault in software/code causing unexpected results.",
+            "Bit:(noun) basic unit of digital information (0 or 1) in computing.",
+            "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
+            "OS:(noun) operating System; software managing hardware and resources (e.g., Windows, Linux).",
+
         };
         //Jonathan M. Cartalla Jr. Contribution.
         System.out.print("Enter Term: ");                        
