@@ -41,12 +41,12 @@ Scanner scanner = new Scanner(System.in);
        // Ashton Paulinio: Contributed to adding terms in the IT Dictionary program.
 
             ‎"Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
-            ‎"Binary:(noun) numbering system using only 0 and 1 understood by computers.",
-            ‎"Bluetooth:(noun) wireless technology used for short-range communication between devices.",
-            ‎"Data Center:(noun) facility used to store computer systems and networking equipment.",
-            ‎"Download:(verb) transferring data from the internet to a local device.",
-            ‎"Upload:(verb) sending data from a local device to the internet.",
-            ‎"USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
+             "Binary:(noun) numbering system using only 0 and 1 understood by computers.",
+             "Bluetooth:(noun) wireless technology used for short-range communication between devices.",
+             "Data Center:(noun) facility used to store computer systems and networking equipment.",
+             "Download:(verb) transferring data from the internet to a local device.",
+             "Upload:(verb) sending data from a local device to the internet.",
+             "USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
 
         // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program and debugging.
 
