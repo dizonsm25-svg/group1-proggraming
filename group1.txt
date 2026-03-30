@@ -48,7 +48,7 @@ public class Maybe {
             String[] SplitData = data[i].split(":");
 
             if (SplitData[0].equals(choice)) {
-                System.out.println("Definition: " + Data[1]);
+                System.out.println("Definition: " + SplitData[1]);
                 decision = true;
             }    
       } if (!decision) {
