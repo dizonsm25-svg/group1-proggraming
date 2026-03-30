@@ -57,7 +57,6 @@ public class Maybe {
            "Firewall:(noun) system filtering network traffic.",
            "Server:(noun) machine providing services to clients.",
            "Compiler:(noun) tool translating code into executable form.",
-           "Bandwidth:(noun) capacity for data transmission.",
         };
 
         System.out.print("Enter Term: ");                        //Jonathan
