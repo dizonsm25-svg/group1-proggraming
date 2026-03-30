@@ -96,6 +96,14 @@ Scanner scanner = new Scanner(System.in);
            "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
            "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
 
+       // Sam Dizon: Contributed to adding terms in the IT Dictionary program.
+
+           "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
+           "HTML: (noun) HyperText Markup Language - the standard markup language used to create and structure web pages.",
+           "Motherboard:(noun) the main board that connects all components.",
+           "Ports:(noun) external connections for devices.",
+
+
        // Adolf Rainer Mangmang: Contributed to adding terms in the IT Dictionary program.
 
           "Hack:(verb) unauthorized access to a computer system or clever workaround/technique in programming.",
