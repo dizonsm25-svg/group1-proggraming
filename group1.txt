@@ -80,7 +80,7 @@ Scanner scanner = new Scanner(System.in);
           "Open Source:(noun) software with source code that anyone can view and modify.",
           "Kernel:(noun) the core part of an operating system that manages resources.",
 
-        // Oliver G. Lerio: Contributed to adding terms in the IT Dictionary program.
+        // Oliver Lerio: Contributed to adding terms in the IT Dictionary program.
 
           "Internet:(noun) global network connecting millions of computers worldwide.",
           "Website:(noun) collection of related web pages accessible through the internet.",
