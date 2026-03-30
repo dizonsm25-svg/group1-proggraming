@@ -99,19 +99,19 @@ public static void main(String[] args) {
           "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.",
 
           
-          // john michael pasag
+          // John Michael Pasag: Contributed to adding terms in the IT Dictionary program.
           "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
           "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
           "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
           "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
           "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
           
-          //AL NHUR LIMPAO
+          //Al Nhur Limpao: Contributed to adding terms in the IT Dictionary program.
           "Ethernet:(noun) A set of technologies and protocols connecting devices over a network. It is commonly used with the RJ45/8P8C port.",
           "Network Switch:(noun) a device which allows to connect multiple devices together.",
           "Access Point:(noun) A device or component that acts as the wireless entry point in a network.",
           
-          //Kristo Baroud
+          //Kristo Baroud: Contributed to adding terms in the IT Dictionary program.
           "Chipset:(noun) controls communication between components.",
           "Expansion Slots:(noun) slots for adding extra cards like graphics cards.",
           "Power Connectors:(noun) connect the motherboard to the power supply.",
@@ -125,7 +125,7 @@ public static void main(String[] args) {
            "Ports:(noun) external connections for devices.",
 
 
-       // Adolf Rainer Mangmang: Contributed to adding terms in the IT Dictionary program.
+          // Adolf Rainer Mangmang: Contributed to adding terms in the IT Dictionary program.
 
           "Hack:(verb) unauthorized access to a computer system or clever workaround/technique in programming.",
           "Bug:(noun) an error, flaw, or fault in software/code causing unexpected results.",
