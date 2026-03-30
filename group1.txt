@@ -47,6 +47,9 @@ public class Maybe {
         for (int i = 0; i < data.length; i++) {
             String[] SplitData = data[i].split(":");
 
+        //Xyrlle Abordo
+        //added equalsIgnoreCase() to ignore capitalization of user input.
+
             if (SplitData[0].trim().equalsIgnoreCase(choice.trim())) {
                 System.out.println("Definition: " + SplitData[1]);
                 decision = true;
