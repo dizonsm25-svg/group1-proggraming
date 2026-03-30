@@ -49,14 +49,14 @@ Scanner scanner = new Scanner(System.in);
 
         // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program.
 
-            ‎"Encapsulation:(noun) bundling data with methods that operate on it.",
-            ‎"Idempotency:(noun) property where repeated operations yield the same result.",
-            ‎"Throttling:(noun) limiting the rate of data or requests.",
-            ‎"Sharding:(noun) splitting a database into smaller, faster pieces.",
-            ‎"Sandboxing:(noun) isolating programs to run safely.",
-            ‎"Rollback:(noun) reverting a system to a previous state.",
-            ‎"Load Balancer:(noun) system distributing network traffic across servers.",
-            ‎"Deadlock:(noun) situation where processes wait indefinitely for resources.",
+            "Encapsulation:(noun) bundling data with methods that  operate on it.",
+            "Idempotency:(noun) property where repeated operations yield the same result.",
+            "Throttling:(noun) limiting the rate of data or requests.",
+            "Sharding:(noun) splitting a database into smaller, faster pieces.",
+            "Sandboxing:(noun) isolating programs to run safely.",
+            "Rollback:(noun) reverting a system to a previous state.",
+            "Load Balance:(noun) system distributing network traffic across servers.",
+            "Deadlock:(noun) situation where processes wait indefinitely for resources.",
 
         // Jhon Keven Nolasco: Contributed to adding terms in the IT Dictionary program.
 
