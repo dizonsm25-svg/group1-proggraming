@@ -52,6 +52,7 @@ public class Maybe {
 
             ‎"Rollback:(noun) reverting a system to a previous state.",
             ‎"Load Balancer:(noun) system distributing network traffic across servers.",
+            ‎"Deadlock:(noun) situation where processes wait indefinitely for resources.",
 
         // Francis Jared Torres Saura: Contributed to adding terms in the IT Dictionary program.
 
