@@ -50,6 +50,14 @@ public class Maybe {
             ‎"Throttling:(noun) limiting the rate of data or requests.",
             ‎"Sharding:(noun) splitting a database into smaller, faster pieces.",
             ‎"Sandboxing:(noun) isolating programs to run safely.",
+
+        // Francis Jared Torres Saura: Contributed to adding terms in the IT Dictionary program.
+
+           "Encryption:(noun) process securing data through encoding.",
+           "Firewall:(noun) system filtering network traffic.",
+           "Server:(noun) machine providing services to clients.",
+           "Compiler:(noun) tool translating code into executable form.",
+           "Bandwidth:(noun) capacity for data transmission.",
         };
 
         System.out.print("Enter Term: ");                        //Jonathan
