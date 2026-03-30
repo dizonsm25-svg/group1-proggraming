@@ -7,10 +7,10 @@ public class Maybe {
 
         String[] data = {
            
-            "Cpu:(noun) central processing unit the brain of the computer.",
-            "Ram:(noun)  temporary memory used while computer is running.",
+            "CPU:(noun) central processing unit the brain of the computer.",
+            "Ram:(noun)  temporary memory used while the computer is running.",
             "Keyboard:(noun) an input device used to type data",
-            "Mouse:(noun) a pointing device used to interact with the computer" 
+            "Mouse:(noun) a pointing device used to interact with the computer." 
 
         // Ronald Comendador
         // This is the 1D array that stores all IT terms and definitions
@@ -20,16 +20,25 @@ public class Maybe {
             "Flowchart:(nonverbal) shows steps of a process using symbols and arrows.",
             "Chart:(nonverbal) presents data visually using bars, lines, or pie shapes.",
 
+        // Xyrlle Abordo: Contributed to adding terms in the IT dictionary program.
+
+            "Algorithm: A set of step-by-step instructions for solving a problem or accomplishing a task.",
+            "API: (Application Programming Interface) A set of rules that allows different software entities to communicate with each other.",
+            "Applications: (noun) refers to the computer program that is intended for the end-user.",
+            "Debugging: The process of identifying and removing errors from computer hardware or software.",
+            "Software:(noun) programs and operating systems used by a computer.,",
+            "Network:(noun) a group of interconnected computers.",
+
         };
-        
-        System.out.print("Enter Term: ");
-        String choice = scanner.nextLine();
+
+        System.out.print("Enter Term: ");                        //Jonathan
+        String choice = scanner.nextLine();                      //The user can enter
         
         Boolean decision = false;
         for (int i = 0; i < data.length; i++) {
-            String[] Data = data[i].split(":");
+            String[] SplitData = data[i].split(":");
 
-            if (Data[0].equals(choice)) {
+            if (SplitData[0].equals(choice)) {
                 System.out.println("Definition: " + Data[1]);
                 decision = true;
             }    
