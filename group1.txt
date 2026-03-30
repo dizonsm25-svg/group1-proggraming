@@ -22,7 +22,7 @@ public class Maybe {
             "API: (Application Programming Interface) A set of rules that allows different software entities to communicate with each other.",
             "Applications: (noun) refers to the computer program that is intended for the end-user.",
             "Debugging: The process of identifying and removing errors from computer hardware or software.",
-            "Software:(noun) programs and operating systems used by a computer.,",
+            "Software:(noun) programs and operating systems used by a computer.",
             "Network:(noun) a group of interconnected computers.",
 
         // Rashlie Jay: Contributed to adding terms in the IT dictionary program.
