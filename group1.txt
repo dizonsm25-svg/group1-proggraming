@@ -13,7 +13,7 @@ public class Maybe {
             "CPU:(noun) central processing unit the brain of the computer.",
             "Ram:(noun)  temporary memory used while the computer is running.",
             "Keyboard:(noun) an input device used to type data",
-            "Mouse:(noun) a pointing device used to interact with the computer." 
+            "Mouse:(noun) a pointing device used to interact with the computer.", 
 
 
         // Xyrlle Abordo: Contributed to adding terms in the IT dictionary program.
