@@ -50,6 +50,10 @@ public class Maybe {
             ‎"Sharding:(noun) splitting a database into smaller, faster pieces.",
             ‎"Sandboxing:(noun) isolating programs to run safely.",
 
+            "Latency:(noun) delay before data transfer begins.",
+            ‎"Rollback:(noun) reverting a system to a previous state.",
+            ‎"Load Balancer:(noun) system distributing network traffic across servers.",
+
         // Francis Jared Torres Saura: Contributed to adding terms in the IT Dictionary program.
 
            "Encryption:(noun) process securing data through encoding.",
