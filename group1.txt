@@ -123,7 +123,13 @@ Scanner scanner = new Scanner(System.in);
         }    
       } if (!decision) {
       System.out.println("The term is not found in the dictionary");
-            if("Yes".equalsIgnoreCase(option)){
+             System.out.println("Would You Like To Search Again?"); 
+                System.out.println("Yes.");
+                System.out.println("No.");
+                System.out.print("Enter Choice: ");
+                 String option = scanner.nextLine();
+
+                if("Yes".equalsIgnoreCase(option)){
                     Repeat();
                
                 } else if("No".equalsIgnoreCase(option)){
