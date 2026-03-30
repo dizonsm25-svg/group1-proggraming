@@ -86,7 +86,14 @@ Scanner scanner = new Scanner(System.in);
           "Website:(noun) collection of related web pages accessible through the internet.",
           "Password:(noun) secret string of characters used to access a device or account.",
           "Email:(noun) online tool for sending and receiving messages over the internet.",
-          "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.",
+          "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.", \
+
+        // Jhon Michael Pasag: Contributed to adding terms about parts of motherboard.
+            "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
+            "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
+            "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
+            "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
+            "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
 
         };
         //Jonathan M. Cartalla Jr. Contribution.
