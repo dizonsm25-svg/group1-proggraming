@@ -9,10 +9,10 @@ public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
 
+       // Ronald Comendador 
+       // This is the 1D array that stores all IT terms and definitions
+
         String[] data = {
-           
-        // Ronald Comendador
-         // This is the 1D array that stores all IT terms and definitions
 
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
             "Icon:(nonverbal) a small image that represents a program, file, or function.",
@@ -89,6 +89,11 @@ public static void main(String[] args) {
              "Cache: (noun) Temporary storage that holds data for quick access by the CPU or web browser.",
              "Motherboard:(noun) the main board that connects all components.",
              "Ports:(noun) external connections for devices.",
+
+          // Reil Pomento: Contributed to adding terms in the IT Dictionary program.
+
+              "Power Connectors:(noun) connect the motherboard to the power supply.",
+              "BIOS/UEFI Chip:(noun) stores startup instructions.",
           
           // Oliver G. Lerio: Contributed to adding terms in the IT Dictionary program.
 
