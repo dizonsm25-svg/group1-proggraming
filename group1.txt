@@ -53,6 +53,13 @@ public class Maybe {
             ‎"Load Balancer:(noun) system distributing network traffic across servers.",
             ‎"Deadlock:(noun) situation where processes wait indefinitely for resources.",
 
+        // Jhon Keven Nolasco: Contributed to adding terms in the IT Dictionary program.
+
+          "Malware:(noun) harmful software designed to damage systems.",
+          "Protocol:(noun) set of rules for data communication.",
+          "Interface:(noun) point where users interact with a system.",
+          "Cache:(noun) temporary storage for frequently accessed data.",
+
         // Francis Jared Torres Saura: Contributed to adding terms in the IT Dictionary program.
 
            "Encryption:(noun) process securing data through encoding.",
