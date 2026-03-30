@@ -82,6 +82,7 @@ public class Maybe {
           "Password:(noun) secret string of characters used to access a device or account.",
           "Email:(noun) online tool for sending and receiving messages over the internet.",
           "Search Engine:(noun) online tool that helps find information, websites, and content on the internet."
+
         };
 
         System.out.print("Enter Term: ");                        //Jonathan
