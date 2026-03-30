@@ -2,69 +2,73 @@
 import java.util.Scanner;
 
 public class Maybe {
-    public static void main(String[] args) {
-
-//Jonathan M. Cartalla Jr. : Contributed adding a method called repeat
-Repeat();
-} static void Repeat(){
+public static void main(String[] args) {
        
-Scanner scanner = new Scanner(System.in);
+    Repeat();
+    } static void Repeat(){     
+        
+        Scanner scanner = new Scanner(System.in);
 
-        // Ronald Comendador
-        // This is the 1D array that stores all IT terms and definitions
         String[] data = {
-
-
+           
+           // Ronald Comendador
+        // This is the 1D array that stores all IT terms and definitions
+            "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
+            "Icon:(nonverbal) a small image that represents a program, file, or function.",
+            "Diagram:(nonverbal) a visual representation of data or processes.",
+            "Flowchart:(nonverbal) shows steps of a process using symbols and arrows.",
+            "Chart:(nonverbal) presents data visually using bars, lines, or pie shapes.",
             
             "CPU:(noun) central processing unit the brain of the computer.",
             "Ram:(noun)  temporary memory used while the computer is running.",
             "Keyboard:(noun) an input device used to type data",
-            "Mouse:(noun) a pointing device used to interact with the computer.", 
-
-
-        // Xyrlle Abordo: Contributed to adding terms in the IT dictionary program.
+            "Mouse:(noun) a pointing device used to interact with the computer." ,
+            
+            // Xyrlle Abordo: Contributed to adding terms in the IT dictionary program.
 
             "Algorithm: A set of step-by-step instructions for solving a problem or accomplishing a task.",
             "API: (Application Programming Interface) A set of rules that allows different software entities to communicate with each other.",
             "Applications: (noun) refers to the computer program that is intended for the end-user.",
             "Debugging: The process of identifying and removing errors from computer hardware or software.",
-            "Software:(noun) programs and operating systems used by a computer.",
+            "Software:(noun) programs and operating systems used by a computer.,",
             "Network:(noun) a group of interconnected computers.",
-
-        // Rashlie Jay Merced: Contributed to adding terms in the IT dictionary program.
+            
+             // Rashlie Jay: Contributed to adding terms in the IT dictionary program.
 
             "Hardware:(noun) the physical components of a computer system.",
+            "Network:(noun) a group of interconnected computers.",
             "Program:(noun) a set of instructions that a computer follows to perform a task.",
             "Database:(noun) an organized collection of structured information or data.",
             "Motherboard:(noun) the main board that connects all components.",
-  
-       // Ashton Paulinio: Contributed to adding terms in the IT Dictionary program.
+            
+           
+             // Ashton Paulinio: Contributed to adding terms in the IT Dictionary program.
+             "Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
+             "Binary:(noun) numbering system using only 0 and 1 understood by computers.",
+             "Bluetooth:(noun) wireless technology used for short-range communication between devices.",
+             "Data Center:(noun) facility used to store computer systems and networking equipment.",
+             "Download:(verb) transferring data from the internet to a local device.",
+             "Upload:(verb) sending data from a local device to the internet.",
+             "USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
+         
 
-           "Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
-           "Binary:(noun) numbering system using only 0 and 1 understood by computers.",
-           "Bluetooth:(noun) wireless technology used for short-range communication between devices.",
-           "Data Center:(noun) facility used to store computer systems and networking equipment.",
-           "Download:(verb) transferring data from the internet to a local device.",
-           "Upload:(verb) sending data from a local device to the internet.",
-           "USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
+        // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program.
 
-        // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program and debugging.
-
-            "Encapsulation:(noun) bundling data with methods that  operate on it.",
-            "Idempotency:(noun) property where repeated operations yield the same result.",
-            "Throttling:(noun) limiting the rate of data or requests.",
-            "Sharding:(noun) splitting a database into smaller, faster pieces.",
-            "Sandboxing:(noun) isolating programs to run safely.",
-            "Rollback:(noun) reverting a system to a previous state.",
-            "Load Balance:(noun) system distributing network traffic across servers.",
-            "Deadlock:(noun) situation where processes wait indefinitely for resources.",
+          "Encapsulation:(noun) bundling data with methods that  operate on it.",
+          "Idempotency:(noun) property where repeated operations yield the same result.",
+          "Throttling:(noun) limiting the rate of data or requests.",
+          "Sharding:(noun) splitting a database into smaller, faster pieces.",
+          "Sandboxing:(noun) isolating programs to run safely.",
+          "Rollback:(noun) reverting a system to a previous state.",
+          "Load Balance:(noun) system distributing network traffic across servers.",
+          "Deadlock:(noun) situation where processes wait indefinitely for resources.",
 
         // Jhon Keven Nolasco: Contributed to adding terms in the IT Dictionary program.
 
-           "Malware:(noun) harmful software designed to damage systems.",
-           "Protocol:(noun) set of rules for data communication.",
-           "Interface:(noun) point where users interact with a system.",
-           "Cache:(noun) temporary storage for frequently accessed data.",
+          "Malware:(noun) harmful software designed to damage systems.",
+          "Protocol:(noun) set of rules for data communication.",
+          "Interface:(noun) point where users interact with a system.",
+          "Cache:(noun) temporary storage for frequently accessed data.",
 
         // Francis Jared Torres Saura: Contributed to adding terms in the IT Dictionary program.
 
@@ -75,13 +79,18 @@ Scanner scanner = new Scanner(System.in);
          
         // Mark Timothy Abranilla: Contributed to adding terms in the IT Dictionary program.
 
-           "Virtualization:(noun) the creation of virtual versions of hardware or systems.",
-           "Latency:(noun) the delay before data begins to transfer.",
-           "Phishing:(noun) a cyber attack that tricks users into giving personal information.",
-           "Open Source:(noun) software with source code that anyone can view and modify.",
-           "Kernel:(noun) the core part of an operating system that manages resources.",
-
-        // Oliver Lerio: Contributed to adding terms in the IT Dictionary program.
+          "Virtualization:(noun) the creation of virtual versions of hardware or systems.",
+          "Latency:(noun) the delay before data begins to transfer.",
+          "Phishing:(noun) a cyber attack that tricks users into giving personal information.",
+          "Open Source:(noun) software with source code that anyone can view and modify.",
+          "Kernel:(noun) the core part of an operating system that manages resources.",
+        
+          "HTML: (noun) HyperText Markup Language - the standard markup language used to create and structure web pages.",
+          "Cache: (noun) Temporary storage that holds data for quick access by the CPU or web browser.",
+          "Motherboard:(noun) the main board that connects all components.",
+          "Ports:(noun) external connections for devices.",
+          
+          // Oliver G. Lerio: Contributed to adding terms in the IT Dictionary program.
 
           "Internet:(noun) global network connecting millions of computers worldwide.",
           "Website:(noun) collection of related web pages accessible through the internet.",
@@ -89,14 +98,26 @@ Scanner scanner = new Scanner(System.in);
           "Email:(noun) online tool for sending and receiving messages over the internet.",
           "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.",
 
-        // Jhon Michael Pasag: Contributed to adding terms about parts of motherboard.
-           "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
-           "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
-           "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
-           "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
-           "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
-
-       // Sam Dizon: Contributed to adding terms in the IT Dictionary program.
+          
+          // john michael pasag
+          "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
+          "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
+          "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
+          "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
+          "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
+          
+          //AL NHUR LIMPAO
+          "Ethernet:(noun) A set of technologies and protocols connecting devices over a network. It is commonly used with the RJ45/8P8C port.",
+          "Network Switch:(noun) a device which allows to connect multiple devices together.",
+          "Access Point:(noun) A device or component that acts as the wireless entry point in a network.",
+          
+          //Kristo Baroud
+          "Chipset:(noun) controls communication between components.",
+          "Expansion Slots:(noun) slots for adding extra cards like graphics cards.",
+          "Power Connectors:(noun) connect the motherboard to the power supply.",
+          "BIOS/UEFI Chip:(noun) stores startup instructions.",
+          
+           // Sam Dizon: Contributed to adding terms in the IT Dictionary program.
 
            "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
            "HTML: (noun) HyperText Markup Language - the standard markup language used to create and structure web pages.",
@@ -112,29 +133,32 @@ Scanner scanner = new Scanner(System.in);
           "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
           "OS:(noun) operating System; software managing hardware and resources.",
 
-        };
-        //Jonathan M. Cartalla Jr. Contribution.
-        System.out.print("Enter Term: ");                        
-        String choice = scanner.nextLine();                      //The user can enter the term he wants to search
+    };
+       
+    
+    
+        System.out.print("Enter Term: ");
+        String choice = scanner.nextLine();
         
         Boolean decision = false;
         for (int i = 0; i < data.length; i++) {
             String[] SplitData = data[i].split(":");
 
-        //Xyrlle Abordo
+           //Xyrlle Abordo
         //added equalsIgnoreCase() to ignore capitalization of user input.
 
             if (SplitData[0].trim().equalsIgnoreCase(choice.trim())) {
                 System.out.println("Definition: " + SplitData[1]);
                 decision = true;
-             
-                // Jonathan M. Cartalla Jr. Contribution.
+                
+                //Jonathan M. Cartalla Jr. Contribution
                 System.out.println("Would You Like To Search Again?"); 
                 System.out.println("Yes.");
                 System.out.println("No.");
                 System.out.print("Enter Choice: ");
                  String option = scanner.nextLine();
-                   
+                
+                
                 if("Yes".equalsIgnoreCase(option)){
                     Repeat();
                
@@ -143,25 +167,29 @@ Scanner scanner = new Scanner(System.in);
                 }else{
                     System.out.println("Thank You for Ussing The IT Term Dictionary");
                 }
-
-        }    
+                
+            }    
       } if (!decision) {
       System.out.println("The term is not found in the dictionary");
-             System.out.println("Would You Like To Search Again?"); 
+                System.out.println("Would You Like To Search Again?"); 
                 System.out.println("Yes.");
                 System.out.println("No.");
                 System.out.print("Enter Choice: ");
                  String option = scanner.nextLine();
-
+                
+                
                 if("Yes".equalsIgnoreCase(option)){
                     Repeat();
                
                 } else if("No".equalsIgnoreCase(option)){
-                    System.out.println("Thank You for Using The IT Term Dictionary");
+                    System.out.println("Thank You for Ussing The IT Term Dictionary");
                 }else{
-                    System.out.println("Thank You for Using The IT Term Dictionary");
+                    System.out.println("Thank You for Ussing The IT Term Dictionary");
                 }
-       }
+      
+      
+      }
+      
 
         scanner.close();
         }  
