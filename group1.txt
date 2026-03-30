@@ -6,11 +6,6 @@ public class Maybe {
         Scanner scanner = new Scanner(System.in);
 
         String[] data = {
-           
-            "CPU:(noun) central processing unit the brain of the computer.",
-            "Ram:(noun)  temporary memory used while the computer is running.",
-            "Keyboard:(noun) an input device used to type data",
-            "Mouse:(noun) a pointing device used to interact with the computer." 
 
         // Ronald Comendador
         // This is the 1D array that stores all IT terms and definitions
@@ -19,6 +14,13 @@ public class Maybe {
             "Diagram:(nonverbal) a visual representation of data or processes.",
             "Flowchart:(nonverbal) shows steps of a process using symbols and arrows.",
             "Chart:(nonverbal) presents data visually using bars, lines, or pie shapes.",
+
+
+            "CPU:(noun) central processing unit the brain of the computer.",
+            "Ram:(noun)  temporary memory used while the computer is running.",
+            "Keyboard:(noun) an input device used to type data",
+            "Mouse:(noun) a pointing device used to interact with the computer." 
+
 
         // Xyrlle Abordo: Contributed to adding terms in the IT dictionary program.
 
