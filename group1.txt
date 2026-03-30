@@ -9,13 +9,7 @@ public class Maybe {
         // This is the 1D array that stores all IT terms and definitions
         String[] data = {
 
-            "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
-            "Icon:(nonverbal) a small image that represents a program, file, or function.",
-            "Diagram:(nonverbal) a visual representation of data or processes.",
-            "Flowchart:(nonverbal) shows steps of a process using symbols and arrows.",
-            "Chart:(nonverbal) presents data visually using bars, lines, or pie shapes.",
-
-
+            
             "CPU:(noun) central processing unit the brain of the computer.",
             "Ram:(noun)  temporary memory used while the computer is running.",
             "Keyboard:(noun) an input device used to type data",
