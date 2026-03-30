@@ -14,6 +14,7 @@ Scanner scanner = new Scanner(System.in);
         // This is the 1D array that stores all IT terms and definitions
         String[] data = {
 
+
             
             "CPU:(noun) central processing unit the brain of the computer.",
             "Ram:(noun)  temporary memory used while the computer is running.",
