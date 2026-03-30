@@ -140,9 +140,9 @@ Scanner scanner = new Scanner(System.in);
                     Repeat();
                
                 } else if("No".equalsIgnoreCase(option)){
-                    System.out.println("Thank You for Ussing The IT Term Dictionary");
+                    System.out.println("Thank You for Using The IT Term Dictionary");
                 }else{
-                    System.out.println("Thank You for Ussing The IT Term Dictionary");
+                    System.out.println("Thank You for Using The IT Term Dictionary");
                 }
        }
 
