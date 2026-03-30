@@ -57,6 +57,7 @@ public class Maybe {
            "Firewall:(noun) system filtering network traffic.",
            "Server:(noun) machine providing services to clients.",
            "Compiler:(noun) tool translating code into executable form.",
+           "Bandwidth:(noun) capacity for data transmission.",
         };
 
         System.out.print("Enter Term: ");                        //Jonathan
@@ -80,3 +81,13 @@ public class Maybe {
         scanner.close();
         }  
     }
+ // Jhon Michael Pasag: Contributed to adding terms about parts of motherboard.
+            "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
+            "RAM Slots:(noun) memory slots where RAM modules are inserted for temporary data storage.",
+            "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
+            "BIOS/UEFI Chip:(noun) firmware that initializes hardware during booting and provides runtime services.",
+            "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
+            "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
+            "Power Connector:(noun) the port that supplies electricity from the power supply unit to the motherboard.",
+            "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
+        };
