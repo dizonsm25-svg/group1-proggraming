@@ -13,12 +13,12 @@ public static void main(String[] args) {
            
         // Ronald Comendador
          // This is the 1D array that stores all IT terms and definitions
+
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
             "Icon:(nonverbal) a small image that represents a program, file, or function.",
             "Diagram:(nonverbal) a visual representation of data or processes.",
             "Flowchart:(nonverbal) shows steps of a process using symbols and arrows.",
             "Chart:(nonverbal) presents data visually using bars, lines, or pie shapes.",
-            
             "CPU:(noun) central processing unit the brain of the computer.",
             "Ram:(noun)  temporary memory used while the computer is running.",
             "Keyboard:(noun) an input device used to type data",
@@ -43,6 +43,7 @@ public static void main(String[] args) {
             
            
          // Ashton Paulinio: Contributed to adding terms in the IT Dictionary program.
+
              "Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
              "Binary:(noun) numbering system using only 0 and 1 understood by computers.",
              "Bluetooth:(noun) wireless technology used for short-range communication between devices.",
@@ -97,7 +98,6 @@ public static void main(String[] args) {
              "Email:(noun) online tool for sending and receiving messages over the internet.",
              "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.",
 
-          
           // John Michael Pasag: Contributed to adding terms in the IT Dictionary program.
              "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
              "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
@@ -124,7 +124,6 @@ public static void main(String[] args) {
              "HTML: (noun) HyperText Markup Language - the standard markup language used to create and structure web pages.",
              "Motherboard:(noun) the main board that connects all components.",
              "Ports:(noun) external connections for devices.",
-
 
           // Adolf Rainer Mangmang: Contributed to adding terms in the IT Dictionary program.
 
