@@ -1,19 +1,16 @@
-# group1-proggraming
+package com.mycompany.it_dictionary;
 import java.util.Scanner;
-
-public class Maybe {
+public class IT_Dictionary {
+Scanner scanner = new Scanner(System.in);
 public static void main(String[] args) {
-       
+    //Jonathan M. Cartalla Jr.
     Repeat();
     } static void Repeat(){     
-        
         Scanner scanner = new Scanner(System.in);
 
        // Ronald Comendador 
        // This is the 1D array that stores all IT terms and definitions
-
         String[] data = {
-
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
             "Icon:(nonverbal) a small image that represents a program, file, or function.",
             "Diagram:(nonverbal) a visual representation of data or processes.",
@@ -23,7 +20,7 @@ public static void main(String[] args) {
             "Ram:(noun)  temporary memory used while the computer is running.",
             "Keyboard:(noun) an input device used to type data",
             "Mouse:(noun) a pointing device used to interact with the computer." ,
-            
+
          // Xyrlle Abordo: Contributed to adding terms in the IT dictionary program.
 
             "Algorithm: A set of step-by-step instructions for solving a problem or accomplishing a task.",
@@ -32,7 +29,7 @@ public static void main(String[] args) {
             "Debugging: The process of identifying and removing errors from computer hardware or software.",
             "Software:(noun) programs and operating systems used by a computer.,",
             "Network:(noun) a group of interconnected computers.",
-            
+
          // Rashlie Jay  Merced: Contributed to adding terms in the IT dictionary program.
 
             "Hardware:(noun) the physical components of a computer system.",
@@ -40,8 +37,7 @@ public static void main(String[] args) {
             "Program:(noun) a set of instructions that a computer follows to perform a task.",
             "Database:(noun) an organized collection of structured information or data.",
             "Motherboard:(noun) the main board that connects all components.",
-            
-           
+
          // Ashton Paulinio: Contributed to adding terms in the IT Dictionary program.
 
              "Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
@@ -51,7 +47,6 @@ public static void main(String[] args) {
              "Download:(verb) transferring data from the internet to a local device.",
              "Upload:(verb) sending data from a local device to the internet.",
              "USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
-         
 
         // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program and debugging minor bugs.
 
@@ -77,7 +72,7 @@ public static void main(String[] args) {
              "Firewall:(noun) system filtering network traffic.",
              "Server:(noun) machine providing services to clients.",
              "Compiler:(noun) tool translating code into executable form.",
-         
+
         // Mark Timothy Abranilla: Contributed to adding terms in the IT Dictionary program.
 
              "Virtualization:(noun) the creation of virtual versions of hardware or systems.",
@@ -92,9 +87,9 @@ public static void main(String[] args) {
 
           // Reil Pomento: Contributed to adding terms in the IT Dictionary program.
 
-              "Power Connectors:(noun) connect the motherboard to the power supply.",
-              "BIOS/UEFI Chip:(noun) stores startup instructions.",
-          
+             "Power Connectors:(noun) connect the motherboard to the power supply.",
+             "BIOS/UEFI Chip:(noun) stores startup instructions.",
+
           // Oliver G. Lerio: Contributed to adding terms in the IT Dictionary program.
 
              "Internet:(noun) global network connecting millions of computers worldwide.",
@@ -110,13 +105,13 @@ public static void main(String[] args) {
              "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
              "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
              "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
-          
+
           //Al Nhur Limpao: Contributed to adding terms in the IT Dictionary program.
 
              "Ethernet:(noun) A set of technologies and protocols connecting devices over a network. It is commonly used with the RJ45/8P8C port.",
              "Network Switch:(noun) a device which allows to connect multiple devices together.",
              "Access Point:(noun) A device or component that acts as the wireless entry point in a network.",
-          
+
           //Kristo Baroud: Contributed to adding terms in the IT Dictionary program.
 
              "Power Connectors:(noun) connect the motherboard to the power supply.",
@@ -125,7 +120,7 @@ public static void main(String[] args) {
              "Power Supply Unit:(noun) provides electrical power.",
              "Cooling System:(noun) keeps the system from overheating.",
              "Case:(noun) encloses and protects components.",
-          
+
            // Sam Dizon: Contributed to adding terms in the IT Dictionary program.
 
              "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
@@ -140,67 +135,75 @@ public static void main(String[] args) {
              "Bit:(noun) basic unit of digital information (0 or 1) in computing.",
              "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
              "OS:(noun) operating System; software managing hardware and resources.",
-
-    };
-       
-    
-    //Jonathan M. Cartalla Contribution 
+    };   
+        System.out.println("/////////////////////////////////////");
+        System.out.println("| INFORMATION TECHNOLOGY DICTIONARY |");
+        System.out.println("/////////////////////////////////////");
         System.out.print("Enter Term: ");
         String choice = scanner.nextLine();
         
         Boolean decision = false;
         for (int i = 0; i < data.length; i++) {
             String[] SplitData = data[i].split(":");
-
-           //Xyrlle Abordo
-        //added equalsIgnoreCase() to ignore capitalization of user input.
-
+            
+    //Xyrlle Abordo
+    //Added conditional statement using string methods: trim()and equalsIgnoreCase().
+    //Its purpose is to compare user input without caring about capitalization and spaces
             if (SplitData[0].trim().equalsIgnoreCase(choice.trim())) {
                 System.out.println("Definition: " + SplitData[1]);
                 decision = true;
-                
-                //Jonathan M. Cartalla Jr. Contribution
-                System.out.println("Would You Like To Search Again?"); 
-                System.out.println("Yes.");
-                System.out.println("No.");
-                System.out.print("Enter Choice: ");
-                 String option = scanner.nextLine();
-                
-                
-                if("Yes".equalsIgnoreCase(option)){
-                    Repeat();
-               
-                } else if("No".equalsIgnoreCase(option)){
-                    System.out.println("Thank You for Ussing The IT Term Dictionary");
-                }else{
-                    System.out.println("Thank You for Ussing The IT Term Dictionary");
-                }
-                
+                EndorReturn();
             }    
-//James Ellicot Contribution 
-      } if (!decision) {
-      System.out.println("The term is not found in the dictionary");
-                System.out.println("Would You Like To Search Again?"); 
-                System.out.println("Yes.");
-                System.out.println("No.");
-                System.out.print("Enter Choice: ");
-                 String option = scanner.nextLine();
-                
-                
- // Jazz Carlo Cabano Contribution               
-                if("Yes".equalsIgnoreCase(option)){
-                    Repeat();
-               
-                } else if("No".equalsIgnoreCase(option)){
-                    System.out.println("Thank You for Ussing The IT Term Dictionary");
-                }else{
-                    System.out.println("Thank You for Ussing The IT Term Dictionary");
-                }
-      
-      
-      }
-      
-
-        scanner.close();
-        }  
+    //James Ellicot
+    //Created the method "NotFound()" to handle cases when input is not found.
+    //Its purpose is to guide the user to retry or exit properly
+    } if (!decision) {
+    NotFound();
     }
+    scanner.close();
+}
+    static void EndorReturn(){
+
+    //Jonathan M. Cartalla Jr.
+    //Implemented the method "Repeat" for repeating user interaction.
+    //Its purpose is to allow users to continue or exit the program.
+    System.out.println("\nWould You Like To Search Again?"); 
+    System.out.println("Yes.");
+    System.out.println("No.");
+    System.out.print("Enter Choice: ");
+    Scanner scanner = new Scanner(System.in);
+    String option = scanner.nextLine();
+                
+        if("Yes".equalsIgnoreCase(option)){
+            Repeat();
+        } else if("No".equalsIgnoreCase(option)){
+            System.out.println("Thank You for Using The IT Term Dictionary");
+        }else{
+            EndorReturn();
+        }
+    }
+    //James Ellicot
+    static void NotFound(){
+    System.out.println("\nThe term is not found in the dictionary");
+    searchAgain();
+    }
+    static void searchAgain(){
+    System.out.println("\nWould You Like To Search Again?"); 
+    System.out.println("Yes.");
+    System.out.println("No.");
+    System.out.print("Enter Choice: ");
+    Scanner scanner = new Scanner (System.in);
+    String option = scanner.nextLine();
+              
+        //Jazz Carlo Cabano
+        //Inside of James Ellicot method "NotFound()".
+        //Its purpose is to allow users to choose whether they would like to use the program again or exit.
+        if("Yes".equalsIgnoreCase(option)){
+            Repeat();
+        } else if("No".equalsIgnoreCase(option)){
+            System.out.println("Thank You for Using The IT Term Dictionary");
+        } else {
+            searchAgain();
+        }
+    }
+}
