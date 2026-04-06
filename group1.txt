@@ -221,7 +221,7 @@ static void searchAgain(){
         searchAgain();
     }
 }
-//Ashton Paulinio & Xyrlle Abordo
+//Ashton Paulinio
 //This method display all available terms encoded in the program.
 //The purpose is to show users all vailable terms for them to search its definition.
 static void showAllTerms() {
