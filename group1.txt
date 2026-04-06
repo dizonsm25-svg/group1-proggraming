@@ -1,5 +1,6 @@
 package com.mycompany.it_dictionary;
 import java.util.Scanner;
+import java.util.HashMap;
 
 public class IT_Dictionary {
 
@@ -109,6 +110,10 @@ public class IT_Dictionary {
              "Responsive Design:(noun) design that adapts to different screen sizes.",
              "DOM:(noun) Document Object Model - structure of a web page.",
     };
+ // Jazz Carlo Cabano
+    // This HashMap stores how many times each term is searched by the user.
+    // Its purpose is to track search frequency and identify the most searched term.
+    static HashMap<String, Integer> searchCount = new HashMap<>();
         
 public static void main(String[] args) {
     Menu();
@@ -125,7 +130,8 @@ static void Menu() {
     System.out.println("\n===== IT DICTIONARY MENU =====");
     System.out.println("1. Show All Terms");
     System.out.println("2. Search Term");
-    System.out.print("Enter Choice (1 or 2): ");
+    System.out.println("3. Most Searched Term");
+    System.out.print("Enter Choice (1, 2, or 3): ");
 
     String choice = scanner.nextLine();
 
@@ -133,6 +139,8 @@ static void Menu() {
         showAllTerms();
     } else if (choice.equals("2")) {
         Repeat();
+    } else if (choice.equals("3")) {
+        mostSearched();
     } else {
         System.out.println("Invalid choice. Try again.");
         Menu();
@@ -158,6 +166,12 @@ static void Repeat(){
         //Its purpose is to compare user input without caring about capitalization and spaces
         if (SplitData[0].trim().equalsIgnoreCase(choice.trim())) {
             System.out.println("Definition: " + SplitData[1]);
+            // Jazz Carlo Cabano
+            // Updates the number of times the searched term is used.
+            // If the term already exists, it increases the count by 1.
+            // If not, it initializes the count to 1.
+            searchCount.put(SplitData[0], searchCount.getOrDefault(SplitData[0], 0) + 1);
+
             decision = true;
             EndorReturn();
             return;
@@ -234,5 +248,29 @@ static void showAllTerms() {
     System.out.println("=================================");    
     System.out.println("All available IT term have been displayed for this program. Please continue."); 
     Repeat();
+}
+// Jazz Carlo Cabano
+// This method displays the most searched term based on user input frequency.
+// It checks the stored data and finds which term has the highest search count.
+static void mostSearched() {
+    String topTerm = "";
+    int maxCount = 0;
+
+    for (String key : searchCount.keySet()) {
+        if (searchCount.get(key) > maxCount) {
+            maxCount = searchCount.get(key);
+            topTerm = key;
+        }
     }
+
+    if (!topTerm.equals("")) {
+        System.out.println("\nMost Searched Term:");
+        System.out.println(topTerm + " (" + maxCount + " searches)");
+    } else {
+        System.out.println("\nNo searches have been made yet.");
+    }
+
+    EndorReturn();
+}
+
 }
