@@ -1,9 +1,9 @@
 package com.mycompany.it_dictionary;
 import java.util.Scanner;
 public class IT_Dictionary {
-       // Ronald Comendador 
+      // Ronald Comendador 
        // This is the 1D array that stores all IT terms and definitions
-       static String[] data = {
+        static String[] data = {
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
             "Icon:(nonverbal) a small image that represents a program, file, or function.",
             "Diagram:(nonverbal) a visual representation of data or processes.",
@@ -13,26 +13,20 @@ public class IT_Dictionary {
             "Ram:(noun)  temporary memory used while the computer is running.",
             "Keyboard:(noun) an input device used to type data",
             "Mouse:(noun) a pointing device used to interact with the computer." ,
-
          // Xyrlle Abordo: Contributed to adding terms in the IT dictionary program.
-
             "Algorithm: A set of step-by-step instructions for solving a problem or accomplishing a task.",
             "API: (Application Programming Interface) A set of rules that allows different software entities to communicate with each other.",
             "Applications: (noun) refers to the computer program that is intended for the end-user.",
             "Debugging: The process of identifying and removing errors from computer hardware or software.",
             "Software:(noun) programs and operating systems used by a computer.,",
             "Network:(noun) a group of interconnected computers.",
-
          // Rashlie Jay  Merced: Contributed to adding terms in the IT dictionary program.
-
             "Hardware:(noun) the physical components of a computer system.",
             "Network:(noun) a group of interconnected computers.",
             "Program:(noun) a set of instructions that a computer follows to perform a task.",
             "Database:(noun) an organized collection of structured information or data.",
             "Motherboard:(noun) the main board that connects all components.",
-
          // Ashton Paulinio: Contributed to adding terms in the IT Dictionary program.
-
              "Bandwidth:(noun) amount of data that can be transmitted over a network in a given time.",
              "Binary:(noun) numbering system using only 0 and 1 understood by computers.",
              "Bluetooth:(noun) wireless technology used for short-range communication between devices.",
@@ -40,9 +34,7 @@ public class IT_Dictionary {
              "Download:(verb) transferring data from the internet to a local device.",
              "Upload:(verb) sending data from a local device to the internet.",
              "USB:(noun) Universal Serial Bus used to connect external devices to a computer.",
-
         // Jazz Carlo Cabano: Contributed to adding terms in the IT Dictionary program and debugging minor bugs.
-
              "Encapsulation:(noun) bundling data with methods that  operate on it.",
              "Idempotency:(noun) property where repeated operations yield the same result.",
              "Throttling:(noun) limiting the rate of data or requests.",
@@ -51,23 +43,17 @@ public class IT_Dictionary {
              "Rollback:(noun) reverting a system to a previous state.",
              "Load Balance:(noun) system distributing network traffic across servers.",
              "Deadlock:(noun) situation where processes wait indefinitely for resources.",
-
         // Jhon Keven Nolasco: Contributed to adding terms in the IT Dictionary program.
-
              "Malware:(noun) harmful software designed to damage systems.",
              "Protocol:(noun) set of rules for data communication.",
              "Interface:(noun) point where users interact with a system.",
              "Cache:(noun) temporary storage for frequently accessed data.",
-
         // Francis Jared Torres Saura: Contributed to adding terms in the IT Dictionary program.
-
              "Encryption:(noun) process securing data through encoding.",
              "Firewall:(noun) system filtering network traffic.",
              "Server:(noun) machine providing services to clients.",
              "Compiler:(noun) tool translating code into executable form.",
-
         // Mark Timothy Abranilla: Contributed to adding terms in the IT Dictionary program.
-
              "Virtualization:(noun) the creation of virtual versions of hardware or systems.",
              "Latency:(noun) the delay before data begins to transfer.",
              "Phishing:(noun) a cyber attack that tricks users into giving personal information.",
@@ -77,93 +63,128 @@ public class IT_Dictionary {
              "Cache: (noun) Temporary storage that holds data for quick access by the CPU or web browser.",
              "Motherboard:(noun) the main board that connects all components.",
              "Ports:(noun) external connections for devices.",
-
           // Reil Pomento: Contributed to adding terms in the IT Dictionary program.
-
              "Power Connectors:(noun) connect the motherboard to the power supply.",
              "BIOS/UEFI Chip:(noun) stores startup instructions.",
-
           // Oliver G. Lerio: Contributed to adding terms in the IT Dictionary program.
-
              "Internet:(noun) global network connecting millions of computers worldwide.",
              "Website:(noun) collection of related web pages accessible through the internet.",
              "Password:(noun) secret string of characters used to access a device or account.",
              "Email:(noun) online tool for sending and receiving messages over the internet.",
              "Search Engine:(noun) online tool that helps find information, websites, and content on the internet.",
-
           // John Michael Pasag: Contributed to adding terms in the IT Dictionary program.
-
              "CPU Socket:(noun) the slot on the motherboard where the processor is installed.",
              "Chipset:(noun) a set of electronic components that manages data flow between the processor, memory, and peripherals.",
              "Expansion Slots:(noun) slots like PCIe used to add extra components such as graphics cards or network cards.",
              "SATA Ports:(noun) connectors used to attach storage devices like hard drives and SSDs.",
              "CMOS Battery:(noun) a small battery that keeps the BIOS settings and real-time clock running when the computer is off.",
-
           //Al Nhur Limpao: Contributed to adding terms in the IT Dictionary program.
-
              "Ethernet:(noun) A set of technologies and protocols connecting devices over a network. It is commonly used with the RJ45/8P8C port.",
              "Network Switch:(noun) a device which allows to connect multiple devices together.",
              "Access Point:(noun) A device or component that acts as the wireless entry point in a network.",
-
           //Kristo Baroud: Contributed to adding terms in the IT Dictionary program.
-
              "Power Connectors:(noun) connect the motherboard to the power supply.",
              "BIOS/UEFI Chip:(noun) stores startup instructions.",
              "Storage Device:(noun) stores data permanently.",
              "Power Supply Unit:(noun) provides electrical power.",
              "Cooling System:(noun) keeps the system from overheating.",
              "Case:(noun) encloses and protects components.",
-
            // Sam Dizon: Contributed to adding terms in the IT Dictionary program.
-
              "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
              "HTML: (noun) HyperText Markup Language - the standard markup language used to create and structure web pages.",
              "Motherboard:(noun) the main board that connects all components.",
              "Ports:(noun) external connections for devices.",
-
           // Adolf Rainer Mangmang: Contributed to adding terms in the IT Dictionary program.
-
              "Hack:(verb) unauthorized access to a computer system or clever workaround/technique in programming.",
              "Bug:(noun) an error, flaw, or fault in software/code causing unexpected results.",
              "Bit:(noun) basic unit of digital information (0 or 1) in computing.",
              "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
              "OS:(noun) operating System; software managing hardware and resources.",
-    };  
-    public static void main(String[] args) {
-    //Jonathan M. Cartalla Jr.
-    Repeat();
-    } static void Repeat(){     
-        Scanner scanner = new Scanner(System.in);
+    };
+     static void CountTerms() {
+    int count = 0;
 
-        CountTerms(data);
+    for (int i = 0; i < data.length; i++) {
+        if (data[i] != null && !data[i].isEmpty()) {
+            count++;
+        }
+    }
 
-        System.out.println("/////////////////////////////////////");
-        System.out.println("| INFORMATION TECHNOLOGY DICTIONARY |");
-        System.out.println("/////////////////////////////////////");
-        System.out.print("Enter Term: ");
-        String choice = scanner.nextLine();
+    System.out.println("Total number of IT terms: " + count);
+}   
         
-        Boolean decision = false;
-        for (int i = 0; i < data.length; i++) {
-            String[] SplitData = data[i].split(":");
+        static void showAllTermsWithDefinitions() {
+    System.out.println("\nAll IT Terms and Definitions:\n");
+
+    for (String entry : data) {
+        String[] parts = entry.split(":", 2);
+        if (parts.length == 2) {
+            System.out.println(parts[0] + " - " + parts[1]);
+        }
+    }
+        
+} public static void main(String[] args) {
+    //Jonathan M. Cartalla Jr.
+    Menu();
+}
+
+static void Menu() {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("\n===== IT DICTIONARY MENU =====");
+    System.out.println("1. Show All Terms and Definitions");
+    System.out.println("2. Search for a Term");
+    System.out.print("Enter Choice (1 or 2): ");
+
+    String choice = scanner.nextLine();
+
+    if (choice.equals("1")) {
+        showAllTermsWithDefinitions();
+        EndorReturn();
+    } else if (choice.equals("2")) {
+        Repeat();
+    } else {
+        System.out.println("Invalid choice. Try again.");
+        Menu();
+    }
+}
+
+static void Repeat(){     
+        
+    Scanner scanner = new Scanner(System.in);        
+    CountTerms();
+    
+    System.out.println("/////////////////////////////////////");
+    System.out.println("| INFORMATION TECHNOLOGY DICTIONARY |");
+    System.out.println("/////////////////////////////////////");
+    System.out.print("Enter Term: ");
+    String choice = scanner.nextLine();
+        
+    Boolean decision = false;
+
+    for (int i = 0; i < data.length; i++) {
+        String[] SplitData = data[i].split(":", 2);
             
-    //Xyrlle Abordo
-    //Added conditional statement using string methods: trim()and equalsIgnoreCase().
-    //Its purpose is to compare user input without caring about capitalization and spaces
-            if (SplitData[0].trim().equalsIgnoreCase(choice.trim())) {
-                System.out.println("Definition: " + SplitData[1]);
-                decision = true;
-                EndorReturn();
-            }    
+        //Xyrlle Abordo
+        //Added conditional statement using string methods: trim()and equalsIgnoreCase().
+        //Its purpose is to compare user input without caring about capitalization and spaces
+        if (SplitData[0].trim().equalsIgnoreCase(choice.trim())) {
+            System.out.println("Definition: " + SplitData[1]);
+            decision = true;
+            EndorReturn();
+            return;
+        }    
+    }
+
     //James Ellicot
     //Created the method "NotFound()" to handle cases when input is not found.
     //Its purpose is to guide the user to retry or exit properly
-    } if (!decision) {
-    NotFound();
+    if (!decision) {
+        NotFound();
     }
-    scanner.close();
 }
-    static void EndorReturn(){
+
+static void EndorReturn(){
 
     //Jonathan M. Cartalla Jr.
     //Implemented the method "Repeat" for repeating user interaction.
@@ -172,65 +193,43 @@ public class IT_Dictionary {
     System.out.println("Yes.");
     System.out.println("No.");
     System.out.print("Enter Choice: ");
+
     Scanner scanner = new Scanner(System.in);
     String option = scanner.nextLine();
                 
-        if("Yes".equalsIgnoreCase(option)){
-            Repeat();
-        } else if("No".equalsIgnoreCase(option)){
-            System.out.println("Thank You for Using The IT Term Dictionary");
-        }else{
-            EndorReturn();
-        }
-    }
-
-// Ashton M. Paulinio
-// This method is showing all the It Terms
-
-public static void showAllTerms() {
-        System.out.println("\nAvailable IT Terms:");
-
-    for(String entry : data){
-        String[] parts = entry.split(":");
-        System.out.println("- " + parts[0]);
+    if("Yes".equalsIgnoreCase(option)){
+        Menu();
+    } else if("No".equalsIgnoreCase(option)){
+        System.out.println("Thank You for Using The IT Term Dictionary");
+    } else {
+        EndorReturn();
     }
 }
 
-    //James Ellicot
-    static void NotFound(){
+//James Ellicot
+static void NotFound(){
     System.out.println("\nThe term is not found in the dictionary");
     searchAgain();
-    }
-    static void searchAgain(){
+}
+
+static void searchAgain(){
     System.out.println("\nWould You Like To Search Again?"); 
     System.out.println("Yes.");
     System.out.println("No.");
     System.out.print("Enter Choice: ");
+
     Scanner scanner = new Scanner (System.in);
     String option = scanner.nextLine();
               
-        //Jazz Carlo Cabano
-        //Inside of James Ellicot method "NotFound()".
-        //Its purpose is to allow users to choose whether they would like to use the program again or exit.
-        if("Yes".equalsIgnoreCase(option)){
-            Repeat();
-        } else if("No".equalsIgnoreCase(option)){
-            System.out.println("Thank You for Using The IT Term Dictionary");
-        } else {
-            searchAgain();
-        }
+    //Jazz Carlo Cabano
+    //Inside of James Ellicot method "NotFound()".
+    //Its purpose is to allow users to choose whether they would like to use the program again or exit.
+    if("Yes".equalsIgnoreCase(option)){
+        Menu();
+    } else if("No".equalsIgnoreCase(option)){
+        System.out.println("Thank You for Using The IT Term Dictionary");
+    } else {
+        searchAgain();
     }
-        // Ronald Comendador
-        // Method to count total IT terms
-         static void CountTerms(String[] data) {
-         int count = 0;
-
-       for (int i = 0; i < data.length; i++) {
-       if (data[i] != null && !data[i].isEmpty()) {
-            count++;
-        }
-    }
-
-    System.out.println("\nTotal number of IT terms: " + count);
-}
+  }
 }
