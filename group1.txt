@@ -182,6 +182,19 @@ public static void main(String[] args) {
             EndorReturn();
         }
     }
+
+// Ashton M. Paulinio
+// This method is showing all the It Terms
+
+public static void showAllTerms() {
+ System.out.println("\nAvailable IT Terms:");
+
+    for(String entry : data){
+        String[] parts = entry.split(":");
+        System.out.println("- " + parts[0]);
+    }
+}
+
     //James Ellicot
     static void NotFound(){
     System.out.println("\nThe term is not found in the dictionary");
