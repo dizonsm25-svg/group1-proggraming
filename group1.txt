@@ -92,7 +92,7 @@ public class IT_Dictionary {
              "Cooling System:(noun) keeps the system from overheating.",
              "Case:(noun) encloses and protects components.",
            // Sam Dizon: Contributed to adding terms in the IT Dictionary program.
-             "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
+             "IP Address: (noun) Internet Protocol Address - a unique numerical label assigned to each device connected to a computer network that uses the                      Internet Protocol for communication.",
              "HTML: (noun) HyperText Markup Language - the standard markup language used to create and structure web pages.",
              "Motherboard:(noun) the main board that connects all components.",
              "Ports:(noun) external connections for devices.",
@@ -138,12 +138,11 @@ static void Menu() {
         Menu();
     }
 }
-
-static void Repeat(){ 
-
+  
     //Jonathan M. Cartalla Jr.
     //Implemented the method "Repeat" for repeating user interaction.
     //Its purpose is to allow users to continue or exit the program.
+static void Repeat(){ 
 
     Scanner scanner = new Scanner(System.in);        
     System.out.print("\nEnter Term: ");
@@ -210,7 +209,7 @@ static void searchAgain(){
     Scanner scanner = new Scanner (System.in);
     String option = scanner.nextLine();
               
-    //Jazz Carlo Cabano
+    //Jonathan M. Cartalla Jr.
     //Inside of James Ellicot method "NotFound()".
     //Its purpose is to allow users to choose whether they would like to use the program again or exit.
     if("Yes".equalsIgnoreCase(option)){
