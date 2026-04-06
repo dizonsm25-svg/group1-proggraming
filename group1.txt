@@ -135,7 +135,9 @@ public static void main(String[] args) {
              "Bit:(noun) basic unit of digital information (0 or 1) in computing.",
              "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
              "OS:(noun) operating System; software managing hardware and resources.",
-    };   
+    };  
+        CountTerms(data);
+
         System.out.println("/////////////////////////////////////");
         System.out.println("| INFORMATION TECHNOLOGY DICTIONARY |");
         System.out.println("/////////////////////////////////////");
@@ -219,4 +221,17 @@ public static void showAllTerms() {
             searchAgain();
         }
     }
+        // Ronald Comendador
+        // Method to count total IT terms
+         static void CountTerms(String[] data) {
+         int count = 0;
+
+       for (int i = 0; i < data.length; i++) {
+       if (data[i] != null && !data[i].isEmpty()) {
+            count++;
+        }
+    }
+
+    System.out.println("\nTotal number of IT terms: " + count);
+}
 }
