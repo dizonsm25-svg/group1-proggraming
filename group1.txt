@@ -133,8 +133,12 @@ static void Menu() {
     }
 }
 
-static void Repeat(){     
-        
+static void Repeat(){ 
+
+    //Jonathan M. Cartalla Jr.
+    //Implemented the method "Repeat" for repeating user interaction.
+    //Its purpose is to allow users to continue or exit the program.
+
     Scanner scanner = new Scanner(System.in);        
     System.out.print("\nEnter Term: ");
     String choice = scanner.nextLine();
@@ -165,9 +169,9 @@ static void Repeat(){
 
 static void EndorReturn(){
 
-    //Jonathan M. Cartalla Jr.
-    //Implemented the method "Repeat" for repeating user interaction.
-    //Its purpose is to allow users to continue or exit the program.
+//Xyrlle L. Abordo
+//This method asks the user whether to continue or exit the program.
+
     System.out.println("\nWould You Like To Search Again?"); 
     System.out.println("Yes.");
     System.out.println("No.");
