@@ -161,7 +161,7 @@ static void Repeat(){
 
 static void EndorReturn(){
 
-    //Jonathan M. Cartalla Jr.
+    //Jonathan M. Cartalla Jr. & Xyrlle L. Abordo
     //Implemented the method "Repeat" for repeating user interaction.
     //Its purpose is to allow users to continue or exit the program.
     System.out.println("\nWould You Like To Search Again?"); 
