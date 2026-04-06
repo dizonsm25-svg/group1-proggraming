@@ -105,7 +105,6 @@ public class IT_Dictionary {
     };
         
 public static void main(String[] args) {
-    //Jonathan M. Cartalla Jr.
     Menu();
 }
 
