@@ -102,6 +102,12 @@ public class IT_Dictionary {
              "Bit:(noun) basic unit of digital information (0 or 1) in computing.",
              "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
              "OS:(noun) operating System; software managing hardware and resources.",
+         // Jonathan M. Cartalla Jr.  Contributed to adding terms in the IT Dictionary program.
+             "Frontend:(noun) the visual part of a website users interact with.",
+             "Backend:(noun) the server-side logic and database handling.",
+             "Full Stack:(noun) development involving both frontend and backend.",
+             "Responsive Design:(noun) design that adapts to different screen sizes.",
+             "DOM:(noun) Document Object Model - structure of a web page.",
     };
         
 public static void main(String[] args) {
