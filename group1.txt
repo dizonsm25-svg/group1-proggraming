@@ -187,7 +187,7 @@ public static void main(String[] args) {
 // This method is showing all the It Terms
 
 public static void showAllTerms() {
- System.out.println("\nAvailable IT Terms:");
+        System.out.println("\nAvailable IT Terms:");
 
     for(String entry : data){
         String[] parts = entry.split(":");
