@@ -1,7 +1,9 @@
 package com.mycompany.it_dictionary;
 import java.util.Scanner;
+
 public class IT_Dictionary {
-      // Ronald Comendador 
+
+       // Ronald Comendador 
        // This is the 1D array that stores all IT terms and definitions
         static String[] data = {
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
@@ -101,41 +103,8 @@ public class IT_Dictionary {
              "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
              "OS:(noun) operating System; software managing hardware and resources.",
     };
-    static void showFirstTerm() {
-    if (data.length > 0) {
-        String[] parts = data[0].split(":", 2);
-        System.out.println("\nFirst Term:");
-        System.out.println(parts[0] + " - " + parts[1]);
-    } else {
-        System.out.println("No data available.");
-    }
-    EndorReturn();
-}  
-
-
-    static void CountTerms() {
-    int count = 0;
-
-    for (int i = 0; i < data.length; i++) {
-        if (data[i] != null && !data[i].isEmpty()) {
-            count++;
-        }
-    }
-
-    System.out.println("Total number of IT terms: " + count);
-}   
         
-        static void showAllTermsWithDefinitions() {
-    System.out.println("\nAll IT Terms and Definitions:\n");
-
-    for (String entry : data) {
-        String[] parts = entry.split(":", 2);
-        if (parts.length == 2) {
-            System.out.println(parts[0] + " - " + parts[1]);
-        }
-    }
-        
-} public static void main(String[] args) {
+public static void main(String[] args) {
     //Jonathan M. Cartalla Jr.
     Menu();
 }
@@ -144,15 +113,14 @@ static void Menu() {
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("\n===== IT DICTIONARY MENU =====");
-    System.out.println("1. Show All Terms and Definitions");
-    System.out.println("2. Search for a Term");
+    System.out.println("1. Show All Terms");
+    System.out.println("2. Search Term");
     System.out.print("Enter Choice (1 or 2): ");
 
     String choice = scanner.nextLine();
 
     if (choice.equals("1")) {
-        showAllTermsWithDefinitions();
-        EndorReturn();
+        showAllTerms();
     } else if (choice.equals("2")) {
         Repeat();
     } else {
@@ -164,12 +132,7 @@ static void Menu() {
 static void Repeat(){     
         
     Scanner scanner = new Scanner(System.in);        
-    CountTerms();
-    
-    System.out.println("/////////////////////////////////////");
-    System.out.println("| INFORMATION TECHNOLOGY DICTIONARY |");
-    System.out.println("/////////////////////////////////////");
-    System.out.print("Enter Term: ");
+    System.out.print("\nEnter Term: ");
     String choice = scanner.nextLine();
         
     Boolean decision = false;
@@ -243,5 +206,20 @@ static void searchAgain(){
     } else {
         searchAgain();
     }
-  }
+}
+//Ashton Paulinio & Xyrlle Abordo
+//This method display all available terms encoded in the program.
+//The purpose is to show users all vailable terms for them to search its definition.
+static void showAllTerms() {
+    System.out.println("=================================");
+        System.out.println("Available IT terms:");
+
+    for (String entry : data) {
+        String[] parts = entry.split(":");
+        System.out.println("- " + parts[0]);
+        }
+    System.out.println("=================================");    
+    System.out.println("All available IT term have been displayed for this program. Please continue."); 
+    Repeat();
+    }
 }
