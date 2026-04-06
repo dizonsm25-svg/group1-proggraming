@@ -101,7 +101,19 @@ public class IT_Dictionary {
              "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
              "OS:(noun) operating System; software managing hardware and resources.",
     };
-     static void CountTerms() {
+    static void showFirstTerm() {
+    if (data.length > 0) {
+        String[] parts = data[0].split(":", 2);
+        System.out.println("\nFirst Term:");
+        System.out.println(parts[0] + " - " + parts[1]);
+    } else {
+        System.out.println("No data available.");
+    }
+    EndorReturn();
+}  
+
+
+    static void CountTerms() {
     int count = 0;
 
     for (int i = 0; i < data.length; i++) {
