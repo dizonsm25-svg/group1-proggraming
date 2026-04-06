@@ -1,16 +1,9 @@
 package com.mycompany.it_dictionary;
 import java.util.Scanner;
 public class IT_Dictionary {
-Scanner scanner = new Scanner(System.in);
-public static void main(String[] args) {
-    //Jonathan M. Cartalla Jr.
-    Repeat();
-    } static void Repeat(){     
-        Scanner scanner = new Scanner(System.in);
-
        // Ronald Comendador 
        // This is the 1D array that stores all IT terms and definitions
-        String[] data = {
+       static String[] data = {
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
             "Icon:(nonverbal) a small image that represents a program, file, or function.",
             "Diagram:(nonverbal) a visual representation of data or processes.",
@@ -136,6 +129,12 @@ public static void main(String[] args) {
              "Malware:(noun) malicious software designed to harm, disrupt, or gain unauthorized access to systems.",
              "OS:(noun) operating System; software managing hardware and resources.",
     };  
+    public static void main(String[] args) {
+    //Jonathan M. Cartalla Jr.
+    Repeat();
+    } static void Repeat(){     
+        Scanner scanner = new Scanner(System.in);
+
         CountTerms(data);
 
         System.out.println("/////////////////////////////////////");
