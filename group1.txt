@@ -108,6 +108,11 @@ public static void main(String[] args) {
     Menu();
 }
 
+// Xyrlle L. Abordo
+// Added the Main() method, which is the entry point of the program.
+// Its purpose is to start the execution of the IT Dictionary application.
+// It calls the Menu() method, which displays the options for the user and controls the overall flow of the program.
+
 static void Menu() {
     Scanner scanner = new Scanner(System.in);
 
