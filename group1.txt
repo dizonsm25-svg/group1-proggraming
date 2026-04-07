@@ -132,6 +132,7 @@ static void Menu() {
     System.out.println("2. Search Term");
     System.out.println("3. Most Searched Term");
     System.out.print("Enter Choice (1, 2, or 3): ");
+    CountTerms(data);
 
     String choice = scanner.nextLine();
 
@@ -206,6 +207,20 @@ static void EndorReturn(){
     } else {
         EndorReturn();
     }
+}
+
+   // Ronald Comendador
+   // Method to count total IT terms
+    static void CountTerms(String[] data) {
+    int count = 0;
+
+    for (int i = 0; i < data.length; i++) {
+        if (data[i] != null && !data[i].isEmpty()) {
+            count++;
+        }
+    }
+
+    System.out.println("\nTotal number of IT terms: " + count);
 }
 
 //James Ellicot
