@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class IT_Dictionary {
 
-       // Ronald Comendador 
+       
        // This is the 1D array that stores all IT terms and definitions
         static String[] data = {
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
