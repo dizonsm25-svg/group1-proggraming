@@ -4,9 +4,9 @@ import java.util.HashMap;
 
 public class IT_Dictionary {
 
-       
        // This is the 1D array that stores all IT terms and definitions
         static String[] data = {
+        // Ronald Commendador: Contributed to adding terms in the IT dictionary program.
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
             "Icon:(nonverbal) a small image that represents a program, file, or function.",
             "Diagram:(nonverbal) a visual representation of data or processes.",
@@ -157,8 +157,11 @@ static void Menu() {
     //Its purpose is to allow users to continue or exit the program.
 static void MainSearch(){ 
 
-    Scanner scanner = new Scanner(System.in);        
-    System.out.print("\nEnter Term: ");
+    Scanner scanner = new Scanner(System.in);   
+    System.out.println("===========================");
+    System.out.println(">--SEARCH ANY TERM BELOW--<");
+    System.out.println("===========================");
+    System.out.print("Enter Term: ");
     String choice = scanner.nextLine();
         
     Boolean decision = false;
@@ -273,12 +276,12 @@ static void showFirstTerm() {
     }
 
     EndorReturn();
-}
+    
 
 //Ashton Paulinio
 //This method display all available terms encoded in the program.
 //The purpose is to show users all vailable terms for them to search its definition.
-static void showAllTerms() {
+} static void showAllTerms() {
     System.out.println("=================================");
         System.out.println("Available IT terms:");
 
@@ -315,4 +318,3 @@ static void mostSearched() {
 }
 
 }
-
