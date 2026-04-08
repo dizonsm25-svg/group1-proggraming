@@ -3,8 +3,7 @@ import java.util.Scanner;
 import java.util.HashMap;
 
 public class IT_Dictionary {
-
-       // This is the 1D array that stores all IT terms and definitions
+ // This is the 1D array that stores all IT terms and definitions
         static String[] data = {
         // Ronald Commendador: Contributed to adding terms in the IT dictionary program.
             "Graphical User Interface (GUI):(nonverbal) uses icons, buttons, and visual elements for interaction instead of text commands.",
@@ -267,9 +266,10 @@ static void searchAgain(){
 // Its purpose is to show basic information about the user's input
 static void showFirstTerm() {
     if (data.length > 0) {
-        String[] parts = data[0].split(":", 0);
-        String firstTerm = parts[0];
-        System.out.println("First term: " + firstTerm);
+        String[] parts = data[0].split(":", 2);
+        String Term = parts[0];
+        String Definition = parts[1];
+        System.out.println("First term: " + Term + Definition);
     } else {
         System.out.println("Error Your Input Is Invalid Please Try Again");
        Menu();
