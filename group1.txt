@@ -145,7 +145,7 @@ static void Menu() {
     } else if (choice.equals("3")) {
         mostSearched();
     } else if(choice.equals("4")) {
-        showFirstWord();  
+        showFirstTerm();  
     } else {
         System.out.println("Invalid choice. Try again.");
         Menu();
@@ -262,7 +262,7 @@ static void searchAgain(){
 // Rashlie Merced
 // This method displays the first letter of the entered IT term
 // Its purpose is to show basic information about the user's input
-static void showFirstWord() {
+static void showFirstTerm() {
     if (data.length > 0) {
         String[] parts = data[0].split(":", 0);
         String firstTerm = parts[0];
