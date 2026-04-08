@@ -131,17 +131,21 @@ static void Menu() {
     System.out.println("1. Show All Terms");
     System.out.println("2. Search Term");
     System.out.println("3. Most Searched Term");
-    System.out.print("Enter Choice (1, 2, or 3): ");
+    System.out.println("4. Show First Term");
     CountTerms(data);
+    System.out.print("Enter Choice: ");
+    
 
     String choice = scanner.nextLine();
 
     if (choice.equals("1")) {
         showAllTerms();
     } else if (choice.equals("2")) {
-        Repeat();
+        MainSearch();
     } else if (choice.equals("3")) {
         mostSearched();
+    } else if(choice.equals("4")) {
+        showFirstWord();  
     } else {
         System.out.println("Invalid choice. Try again.");
         Menu();
@@ -149,9 +153,9 @@ static void Menu() {
 }
   
     //Jonathan M. Cartalla Jr.
-    //Implemented the method "Repeat" for repeating user interaction.
+    //Implemented the method "MainSearch" for repeating user interaction.
     //Its purpose is to allow users to continue or exit the program.
-static void Repeat(){ 
+static void MainSearch(){ 
 
     Scanner scanner = new Scanner(System.in);        
     System.out.print("\nEnter Term: ");
@@ -192,18 +196,21 @@ static void EndorReturn(){
 //Xyrlle L. Abordo
 //This method asks the user whether to continue or exit the program.
 
-    System.out.println("\nWould You Like To Search Again?"); 
-    System.out.println("Yes.");
-    System.out.println("No.");
+  System.out.println("\nWould You Like To Search Again?"); 
+    System.out.println("1. Go Back Menu.");
+    System.out.println("2. Search A Term Again");
+    System.out.println("3. Exit Program");
     System.out.print("Enter Choice: ");
 
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner (System.in);
     String option = scanner.nextLine();
-                
-    if("Yes".equalsIgnoreCase(option)){
-        Menu();
-    } else if("No".equalsIgnoreCase(option)){
-        System.out.println("Thank You for Using The IT Term Dictionary");
+   
+    if("1".equalsIgnoreCase(option)){
+    Menu();
+    } else if("2".equalsIgnoreCase(option)){
+    MainSearch();
+    } else if("3".equalsIgnoreCase(option)){
+    System.out.println("Thank You for Using The IT Term Dictionary");
     } else {
         EndorReturn();
     }
@@ -231,8 +238,9 @@ static void NotFound(){
 
 static void searchAgain(){
     System.out.println("\nWould You Like To Search Again?"); 
-    System.out.println("Yes.");
-    System.out.println("No.");
+    System.out.println("1. Go Back Menu.");
+    System.out.println("2. Search A Term Again");
+    System.out.println("3. Exit Program");
     System.out.print("Enter Choice: ");
 
     Scanner scanner = new Scanner (System.in);
@@ -241,14 +249,32 @@ static void searchAgain(){
     //Jonathan M. Cartalla Jr.
     //Inside of James Ellicot method "NotFound()".
     //Its purpose is to allow users to choose whether they would like to use the program again or exit.
-    if("Yes".equalsIgnoreCase(option)){
-        Menu();
-    } else if("No".equalsIgnoreCase(option)){
-        System.out.println("Thank You for Using The IT Term Dictionary");
+    if("1".equalsIgnoreCase(option)){
+    Menu();
+    } else if("2".equalsIgnoreCase(option)){
+    MainSearch();
+    } else if("3".equalsIgnoreCase(option)){
+    System.out.println("Thank You for Using The IT Term Dictionary");
     } else {
         searchAgain();
     }
 }
+// Rashlie Merced
+// This method displays the first letter of the entered IT term
+// Its purpose is to show basic information about the user's input
+static void showFirstWord() {
+    if (data.length > 0) {
+        String[] parts = data[0].split(":", 0);
+        String firstTerm = parts[0];
+        System.out.println("First term: " + firstTerm);
+    } else {
+        System.out.println("Error Your Input Is Invalid Please Try Again");
+       Menu();
+    }
+
+    EndorReturn();
+}
+
 //Ashton Paulinio
 //This method display all available terms encoded in the program.
 //The purpose is to show users all vailable terms for them to search its definition.
@@ -262,7 +288,7 @@ static void showAllTerms() {
         }
     System.out.println("=================================");    
     System.out.println("All available IT term have been displayed for this program. Please continue."); 
-    Repeat();
+    MainSearch();
 }
 // Jazz Carlo Cabano
 // This method displays the most searched term based on user input frequency.
@@ -286,18 +312,7 @@ static void mostSearched() {
     }
 
     EndorReturn();
-
-// Rashlie Merced
-// This method displays the first letter of the entered IT term
-// Its purpose is to show basic information about the user's input
-public static void showFirstLetter(String choice){
-    if(choice != null && !choice.trim().isEmpty()){
-        char first = choice.trim().charAt(0);
-        System.out.println("First letter of the term: " + first);
-    } else {
-        System.out.println("No input provided.");
-    }
-}
 }
 
 }
+
