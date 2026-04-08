@@ -269,7 +269,8 @@ static void showFirstTerm() {
         String[] parts = data[0].split(":", 2);
         String Term = parts[0];
         String Definition = parts[1];
-        System.out.println("First term: " + Term + Definition);
+        System.out.println("First term: " + Term);
+        System.out.println("Definition: " + Definition);
     } else {
         System.out.println("Error Your Input Is Invalid Please Try Again");
        Menu();
