@@ -286,6 +286,18 @@ static void mostSearched() {
     }
 
     EndorReturn();
+
+// Rashlie Merced
+// This method displays the first letter of the entered IT term
+// Its purpose is to show basic information about the user's input
+public static void showFirstLetter(String choice){
+    if(choice != null && !choice.trim().isEmpty()){
+        char first = choice.trim().charAt(0);
+        System.out.println("First letter of the term: " + first);
+    } else {
+        System.out.println("No input provided.");
+    }
+}
 }
 
 }
